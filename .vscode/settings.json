@@ -1,0 +1,21 @@
+{
+"liveServer.settings.port": 5502,
+"editor.suggest.showDeprecated": false,
+"editor.suggest.showEnumMembers": false,
+"editor.suggest.showEnums": false,
+"editor.suggest.showFields": true,
+"editor.suggest.showFiles": true,
+"editor.suggest.showFolders": true,
+"editor.suggest.showFunctions": false,
+"editor.suggest.showIssues": false,
+"editor.suggest.showKeywords": false,
+"editor.suggest.showOperators": false,
+"editor.suggest.showReferences": false,
+"editor.suggest.showStructs": false,
+"editor.suggest.showTypeParameters": false,
+"editor.suggest.showUnits": false,
+"editor.suggest.showUsers": false,
+"editor.suggest.showValues": false,
+"editor.suggest.showVariables": false,
+"editor.suggest.showWords": false
+}
