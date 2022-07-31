@@ -44,7 +44,10 @@ https://dashboard-metals.uc.r.appspot.com
 
 ## Error conditions
 
+The deployment was successful after resolving two errors. The 502 Bad Gateway error is opaque, so checking gcloud error logs for specifice Notices and Errors is essential.
+
 - 502 Bad Gateway => Rename app.py to main.py
   The gcloud default is to look for a file named main.py
 - 502 Bad Gateway => Revised app.yaml
+  Dash app yamls need to specify handlers: where to find static assets. The entrypoint is also helpful. And for your own advance planning, the service should be specified (because a project can have multiple services.)
   SUCCESS
