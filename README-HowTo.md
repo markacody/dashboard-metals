@@ -33,6 +33,13 @@ From the command line:
 7. Agree to the service description.
 8. Select the region, US-central, 17.
 
-## Browse app at:
+## Browse app
 
 https://dashboard-metals.uc.r.appspot.com
+
+## Error conditions
+
+- 502 Bad Gateway => Rename app.py to main.py
+  The gcloud default is to look for a file named main.py
+
+- 502 Bad Gateway => Rename assets to static
