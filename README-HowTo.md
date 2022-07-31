@@ -1,6 +1,11 @@
 # Data Visualization in Python with Dash
 
-## Set up and Run Project
+## Set up project
+
+- Dash looks for css, js, and favicon in a folder called assets.
+- templates.py imports Dash stylesheets that can be applied to graphs. In this case, fig.update_layout(template='plotly_dark').
+
+## Run Project
 
 1. Open in VSCode.
 2. Change terminal to bash.
@@ -41,5 +46,5 @@ https://dashboard-metals.uc.r.appspot.com
 
 - 502 Bad Gateway => Rename app.py to main.py
   The gcloud default is to look for a file named main.py
-
-- 502 Bad Gateway => Rename assets to static
+- 502 Bad Gateway => Revised app.yaml
+  SUCCESS

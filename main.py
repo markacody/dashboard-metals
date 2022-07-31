@@ -6,7 +6,7 @@ from dash.dependencies import Output,Input
 import plotly.express as px
 
 #Read data
-data = pd.read_csv('precious_metals.csv')
+data = pd.read_csv('assets/precious_metals.csv')
 data['DateTime'] = pd.to_datetime(data['DateTime'],format='%Y-%m-%d')
 
 #Create graphs and figures
