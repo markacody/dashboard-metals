@@ -1,4 +1,4 @@
-#Three packages required for LIL course Dash on Heroku: pandas, dash, gunicorn
+#Three packages required to deploy: pandas, dash, gunicorn
 pandas
 dash
 gunicorn
